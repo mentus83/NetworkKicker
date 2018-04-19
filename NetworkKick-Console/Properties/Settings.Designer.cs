@@ -25,7 +25,7 @@ namespace NetworkKick_Console.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Ethernet")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Wi-Fi")]
         public string ConnectionName {
             get {
                 return ((string)(this["ConnectionName"]));

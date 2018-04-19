@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Management;
+using System.Net.NetworkInformation;
 using System.Threading;
 
 namespace NetworkKick
@@ -16,15 +17,31 @@ namespace NetworkKick
 
         public void Run()
         {
+            if (CanReachInternet()) return;
+
             var netConnection = GetNetConnection(_connectionName);
 
             var netStatus = ushort.Parse(netConnection["NetConnectionStatus"].ToString());
 
-            if (netStatus == 2) return;
-
             var netStatusConfirmed = ConfirmNetStatus(netStatus);
 
             if (netStatusConfirmed) KickNetwork(netConnection);
+        }
+
+        private static bool CanReachInternet()
+        {
+            var pinger = new Ping();
+            const string remote = "google.com";
+            try
+            {
+                var reply = pinger.Send(remote);
+                var pingable = reply?.Status == IPStatus.Success;
+                return pingable;
+            }
+            catch
+            {
+                throw new Exception($"Unable to reach {remote}");
+            }
         }
 
         private bool ConfirmNetStatus(ushort netStatus)
