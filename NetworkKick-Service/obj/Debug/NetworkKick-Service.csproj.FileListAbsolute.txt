@@ -1,0 +1,10 @@
+D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Debug\NetworkKick-Service.exe.config
+D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Debug\NetworkKick-Service.exe
+D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Debug\NetworkKick-Service.pdb
+D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Debug\NetworkKick.dll
+D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Debug\NetworkKick.pdb
+D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\obj\Debug\NetworkKick-Service.csprojResolveAssemblyReference.cache
+D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\obj\Debug\NetworkKick-Service.csproj.CoreCompileInputs.cache
+D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\obj\Debug\NetworkKick-Service.exe
+D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\obj\Debug\NetworkKick-Service.pdb
+D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\obj\Debug\NetworkKick-Service.csproj.CopyComplete

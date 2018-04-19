@@ -1,0 +1,4 @@
+[20-04-2018_07:30:45] Kicked connection: Local Area Connection
+[20-04-2018_07:31:40] Kicked connection: Local Area Connection
+[20-04-2018_07:32:25] Kicked connection: Local Area Connection
+[20-04-2018_07:33:25] Kicked connection: Local Area Connection

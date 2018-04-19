@@ -80,7 +80,7 @@ namespace NetworkKick
                 item.InvokeMethod("Disable", null);
                 Thread.Sleep(KickLength * 1000);
                 item.InvokeMethod("Enable", null);
-                OnLogContentReady(this, new LogEventArgs($"The following connection has been kicked: {_connectionName}"));
+                OnLogContentReady(this, new LogEventArgs($"Kicked connection: {_connectionName}"));
             }
             catch (Exception ex)
             {

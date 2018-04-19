@@ -1,0 +1,10 @@
+[20-04-2018_07:23:44] Message:
+Unable to find connection name [Wi-Fi]
+Source:
+NetworkKick
+Data:
+System.Collections.ListDictionaryInternal
+Stack:
+   at NetworkKick.NetworkKicker.GetNetConnection(String connectionName) in D:\Dropbox\Projects\Services\NetworkKick\NetworkKick\NetworkKicker.cs:line 71
+   at NetworkKick.NetworkKicker.Run() in D:\Dropbox\Projects\Services\NetworkKick\NetworkKick\NetworkKicker.cs:line 27
+   at NetworkKick_Console.Program.Main(String[] args) in D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Console\Program.cs:line 21

@@ -1,0 +1,13 @@
+﻿Installing assembly 'D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.exe
+   logfile = D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.InstallLog
+Installing service NetworkKicker...
+Service NetworkKicker has been successfully installed.
+Creating EventLog source NetworkKicker in log Application...
+Committing assembly 'D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.exe
+   logfile = D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.InstallLog

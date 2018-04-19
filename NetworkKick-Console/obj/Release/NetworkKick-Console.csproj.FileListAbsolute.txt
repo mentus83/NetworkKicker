@@ -7,3 +7,4 @@ D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Console\obj\Release\Network
 D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Console\obj\Release\NetworkKick-Console.csproj.CoreCompileInputs.cache
 D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Console\obj\Release\NetworkKick-Console.exe
 D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Console\obj\Release\NetworkKick-Console.pdb
+D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Console\obj\Release\NetworkKick-Console.csproj.CopyComplete

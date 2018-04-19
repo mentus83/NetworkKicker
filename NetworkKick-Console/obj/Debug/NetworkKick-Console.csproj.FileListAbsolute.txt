@@ -7,3 +7,4 @@ D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Console\obj\Debug\NetworkKi
 D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Console\obj\Debug\NetworkKick-Console.pdb
 D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Console\bin\Debug\NetworkKick.dll
 D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Console\bin\Debug\NetworkKick.pdb
+D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Console\obj\Debug\NetworkKick-Console.csproj.CopyComplete
