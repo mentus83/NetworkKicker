@@ -1,0 +1,6 @@
+D:\Dropbox\Projects\Services\NetworkKick\NetworkKick\bin\Release\NetworkKick.dll
+D:\Dropbox\Projects\Services\NetworkKick\NetworkKick\bin\Release\NetworkKick.pdb
+D:\Dropbox\Projects\Services\NetworkKick\NetworkKick\obj\Release\NetworkKick.csprojResolveAssemblyReference.cache
+D:\Dropbox\Projects\Services\NetworkKick\NetworkKick\obj\Release\NetworkKick.csproj.CoreCompileInputs.cache
+D:\Dropbox\Projects\Services\NetworkKick\NetworkKick\obj\Release\NetworkKick.dll
+D:\Dropbox\Projects\Services\NetworkKick\NetworkKick\obj\Release\NetworkKick.pdb
