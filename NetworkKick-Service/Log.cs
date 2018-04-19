@@ -12,17 +12,24 @@ namespace NetworkKick_Service
 
         public static void Write(Exception ex)
         {
+            ClearLogIfLong(ErrorLogPath);
             var nl = Environment.NewLine;
-            var errorContent = $"Message:{nl}{ex.Message}{nl}Source:{nl}{ex.Source}{nl}" +
+            var errorContent = $"[{DateTime.Now:dd-MM-yyyy_HH:mm:ss}] Message:{nl}{ex.Message}{nl}Source:{nl}{ex.Source}{nl}" +
                                $"Data:{nl}{ex.Data}{nl}Stack:{nl}{ex.StackTrace}{nl}";
 
-            File.WriteAllText(ErrorLogPath, errorContent);
+            File.AppendAllText(ErrorLogPath, errorContent);
         }
 
         internal static void Write(string content)
         {
+            ClearLogIfLong(LogPath);
             var nl = Environment.NewLine;
-            File.WriteAllText(LogPath, content);
+            File.AppendAllText(LogPath, $"[{DateTime.Now:dd-MM-yyyy_HH:mm:ss}] {content}{nl}");
+        }
+
+        private static void ClearLogIfLong(string logPath)
+        {
+            if (File.Exists(logPath) && new FileInfo(logPath).Length > 10000) File.Delete(logPath);
         }
     }
 }
