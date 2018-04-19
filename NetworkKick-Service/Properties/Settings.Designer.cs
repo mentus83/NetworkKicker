@@ -40,5 +40,23 @@ namespace NetworkKick_Service.Properties {
                 return ((int)(this["KickFrequency"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        public int KickLength {
+            get {
+                return ((int)(this["KickLength"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("google.com")]
+        public string RemoteSite {
+            get {
+                return ((string)(this["RemoteSite"]));
+            }
+        }
     }
 }

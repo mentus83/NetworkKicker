@@ -10,9 +10,14 @@ namespace NetworkKick
     {
         private readonly string _connectionName;
 
+        public string RemoteSite { get; set; }
+        public int KickLength { get; set; }
+
         public NetworkKicker(string connectionName)
         {
             _connectionName = connectionName;
+            KickLength = 1;
+            RemoteSite = "google.com";
         }
 
         public void Run()
@@ -28,13 +33,12 @@ namespace NetworkKick
             if (netStatusConfirmed) KickNetwork(netConnection);
         }
 
-        private static bool CanReachInternet()
+        private bool CanReachInternet()
         {
             var pinger = new Ping();
-            const string remote = "google.com";
             try
             {
-                var reply = pinger.Send(remote);
+                var reply = pinger.Send(RemoteSite);
                 var pingable = reply?.Status == IPStatus.Success;
                 return pingable;
             }
@@ -74,7 +78,7 @@ namespace NetworkKick
             try
             {
                 item.InvokeMethod("Disable", null);
-                Thread.Sleep(1000);
+                Thread.Sleep(KickLength * 1000);
                 item.InvokeMethod("Enable", null);
                 OnLogContentReady(this, new LogEventArgs($"The following connection has been kicked: {_connectionName}"));
             }

@@ -19,10 +19,15 @@ namespace NetworkKick_Service
             {
                 var frequency = Settings.Default.KickFrequency * 1000;
                 var connectionName = Settings.Default.ConnectionName;
+                var remoteSite = Settings.Default.RemoteSite;
+                var kickLength = Settings.Default.KickLength;
 
                 while (true)
                 {
-                    var netKicker = new NetworkKicker(connectionName);
+                    var netKicker = new NetworkKicker(connectionName)
+                    {
+                        KickLength = kickLength, RemoteSite = remoteSite
+                    };
                     netKicker.LogContentReady += OnLogReady;
                     netKicker.Run();
                     Thread.Sleep(frequency);
