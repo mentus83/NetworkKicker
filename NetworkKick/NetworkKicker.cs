@@ -40,7 +40,7 @@ namespace NetworkKick
             }
             catch
             {
-                throw new Exception($"Unable to reach {remote}");
+                return false;
             }
         }
 
