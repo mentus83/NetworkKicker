@@ -8,3 +8,5 @@ D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\obj\Debug\NetworkKi
 D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\obj\Debug\NetworkKick-Service.exe
 D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\obj\Debug\NetworkKick-Service.pdb
 D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\obj\Debug\NetworkKick-Service.csproj.CopyComplete
+D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\obj\Debug\NetworkKick_Service.ProjectInstaller.resources
+D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\obj\Debug\NetworkKick-Service.csproj.GenerateResource.cache

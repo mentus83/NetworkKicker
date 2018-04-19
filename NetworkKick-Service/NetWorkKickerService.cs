@@ -8,6 +8,9 @@ namespace NetworkKick_Service
 {
     public partial class NetWorkKickerService : ServiceBase
     {
+        private Thread _worker;
+        private readonly AutoResetEvent _stopRequest = new AutoResetEvent(false);
+
         public NetWorkKickerService()
         {
             InitializeComponent();
@@ -15,6 +18,24 @@ namespace NetworkKick_Service
 
         protected override void OnStart(string[] args)
         {
+            _worker = new Thread(Run);
+            _worker.Start();
+        }
+
+        protected override void OnStop()
+        {
+            _stopRequest.Set();
+            _worker.Join();
+        }
+
+        private static void OnLogReady(object sender, LogEventArgs e)
+        {
+            Log.Write(e.Content);
+        }
+
+        private void Run()
+        {
+            if (_stopRequest.WaitOne(10000)) return;
             try
             {
                 var frequency = Settings.Default.KickFrequency * 1000;
@@ -26,7 +47,8 @@ namespace NetworkKick_Service
                 {
                     var netKicker = new NetworkKicker(connectionName)
                     {
-                        KickLength = kickLength, RemoteSite = remoteSite
+                        KickLength = kickLength,
+                        RemoteSite = remoteSite
                     };
                     netKicker.LogContentReady += OnLogReady;
                     netKicker.Run();
@@ -37,15 +59,6 @@ namespace NetworkKick_Service
             {
                 Log.Write(ex);
             }
-        }
-
-        protected override void OnStop()
-        {
-        }
-
-        private static void OnLogReady(object sender, LogEventArgs e)
-        {
-            Log.Write(e.Content);
         }
     }
 }

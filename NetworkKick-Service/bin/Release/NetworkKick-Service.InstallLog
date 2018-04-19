@@ -11,3 +11,70 @@ Affected parameters are:
    logtoconsole = 
    assemblypath = D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.exe
    logfile = D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.InstallLog
+Uninstalling assembly 'D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.exe
+   logfile = D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.InstallLog
+Removing EventLog source NetworkKicker.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.exe
+   logfile = D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.InstallLog
+Rolling back assembly 'D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.exe
+   logfile = D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.InstallLog
+Uninstalling assembly 'D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.exe
+   logfile = D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.InstallLog
+An exception occurred during the uninstallation of the NetworkKick_Service.ProjectInstaller installer.
+System.ArgumentException: The savedState dictionary contains inconsistent data and might have been corrupted.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.exe
+   logfile = D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.InstallLog
+An exception occurred during the uninstallation of the NetworkKick_Service.ProjectInstaller installer.
+System.ArgumentException: The savedState dictionary contains inconsistent data and might have been corrupted.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.exe
+   logfile = D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.InstallLog
+An exception occurred during the uninstallation of the NetworkKick_Service.ProjectInstaller installer.
+System.ArgumentException: The savedState dictionary contains inconsistent data and might have been corrupted.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.exe
+   logfile = D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.InstallLog
+An exception occurred during the uninstallation of the NetworkKick_Service.ProjectInstaller installer.
+System.ArgumentException: The savedState dictionary contains inconsistent data and might have been corrupted.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.exe
+   logfile = D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.InstallLog
+An exception occurred during the uninstallation of the NetworkKick_Service.ProjectInstaller installer.
+System.ArgumentException: The savedState dictionary contains inconsistent data and might have been corrupted.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.exe
+   logfile = D:\Dropbox\Projects\Services\NetworkKick\NetworkKick-Service\bin\Release\NetworkKick-Service.InstallLog
+An exception occurred during the uninstallation of the NetworkKick_Service.ProjectInstaller installer.
+System.ArgumentException: The savedState dictionary contains inconsistent data and might have been corrupted.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
