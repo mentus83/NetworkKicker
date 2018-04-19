@@ -1,5 +1,4 @@
 ﻿using NetworkKick;
-using NetworkKick_Console;
 using NetworkKick_Service.Properties;
 using System;
 using System.ServiceProcess;
